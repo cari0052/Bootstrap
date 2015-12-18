@@ -1,0 +1,55 @@
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px); /*** serif ***/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif); /*** serif ***/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); /*** sans serif ***/
+@import url(https://fonts.googleapis.com/css?family=Lato); /*** sans serif ***/
+*{
+    
+}
+p{
+    font-family: 'slabo 27px', 'droid serif';
+}
+a, h1{
+    font-family: 'open sans', 'lato';
+}
+/********** HomePage.html **********/
+#bio{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: lato;
+}
+#main{
+    text-align: center
+}
+.btn1{
+    text-align: center;
+    margin-top: 2rem;
+}
+#footer{
+    font-family: open-sans;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+/********** ProjectsPage.html **********/
+.card {
+        text-align: center;
+        padding: 1em;
+        height: 500px;
+}
+
+#project {
+        width: 200px;
+        height: 220px;
+        border: 2px solid black;
+}
+/********** ContactPage.html **********/ 
+#msg{
+    padding-top: 2.3rem;
+    float:inherit;
+}
+.reach{
+    color: aqua;
+}
